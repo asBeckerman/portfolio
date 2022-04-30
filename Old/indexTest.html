@@ -1,0 +1,159 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Index</title>
+	<link rel="stylesheet" type="text/css" href="indexTest.css">
+
+	
+</head>
+
+<body>
+	<header class="center">
+<b>Beckerman Portfolio</b>
+	</header>
+	
+		<nav>
+		
+	</nav>
+	
+	
+<main>
+	
+	
+		<section>
+		<div class="center" id="b01" ><b><u>Web Development 1 Projects</u></b></div>
+			<br>
+			
+			<div class="grid-container">
+		<div class="links center grid-item">
+		<h2 class="center">Biography Page</h2>
+		<a href = "Biography/html/biographyHome.html" id="bioLink"> <img src="indexImages/biographyPhoto.png" alt="Biography" id="bio"></a></div>	
+		
+			
+			<div class="links center grid-item">
+			<h2 class="center">Cultural Website</h2>
+		<a href = "Culture/html/home.html" id="cultureLink"> <img src="indexImages/culturePhoto.png" id="culture" alt="Culture"></a></div>	
+	
+			<div class="links center grid-item">
+	<h2 class="center">Spot The Difference</h2>
+		<a href = "SpotDifference/HTML/home.html"> <img src="indexImages/spotPhoto.png" id="spot" alt="Spot the Difference"></a></div>	
+			
+			<div class="links center grid-item">
+	<h2 class="center">Filler </h2>
+		<a href = ""> <img src="indexImages/filler1.jpg" id="filler1" alt="filler1"></a></div>	
+			
+			<div class="links center grid-item">
+	<h2 class="center">Filler2 </h2>
+		<a href = ""> <img src="indexImages/filler2.jpg" id="filler2" alt="filler2"></a></div>	
+			</div>
+		<script>
+			
+			//window.setInterval(repaint2,5000);
+		//window.setInterval(repaint,7000);
+			var count = 2;
+			function repaint()
+			{
+				
+				if(count==1)
+				   {
+					 
+					   document.getElementById("cultureLink").href = "Culture/html/home.html";
+					   document.getElementById("culture").src = "indexImages/culturePhoto.png";
+					 
+				   }
+				else if(count==2)
+				   {
+					   
+				   document.getElementById("cultureLink").href = "Culture/html/food.html";
+				document.getElementById("culture").src = "indexImages/foodPhoto.png";
+					    
+				   }
+				else if(count==3)
+				   {
+					
+				   document.getElementById("cultureLink").href = "Culture/html/holidays.html";
+					document.getElementById("culture").src = "indexImages/holidayPhoto.png";
+					   
+				   }
+				else if(count==4)
+				   {
+					
+				      document.getElementById("cultureLink").href = "Culture/html/clubs.html";
+					  document.getElementById("culture").src = "indexImages/clubPhoto.png";
+				
+				   }
+				if (count<=4)
+					{
+						count++;
+					}
+				if (count>4)
+					{
+						count = 0;
+					}
+		
+			}
+			
+		
+			var count = 2;
+			function repaint2()
+			{
+				
+				if(count==1)
+				   {
+					   document.getElementById("bioLink").href = "Biography/html/biographyHome.html";
+					   document.getElementById("bio").src = "indexImages/biographyPhoto.png";
+				
+				   }
+				else if(count==2)
+				   {
+				   document.getElementById("bioLink").href = "Biography/html/biographyHome.html";
+				document.getElementById("bio").src = "indexImages/aboutMePhoto.png";
+				   }
+				else if(count==3)
+				   {
+				   document.getElementById("bioLink").href = "Biography/html/biographyHome.html";
+					document.getElementById("bio").src = "indexImages/basketballPhoto.png";
+				   }
+				else if(count==4)
+				   {
+				      document.getElementById("bioLink").href = "Biography/html/biographyHome.html";
+					  document.getElementById("bio").src = "indexImages/freetimePhoto.png";
+				   }
+				else if(count==5)
+				   {
+				      document.getElementById("bioLink").href = "Biography/html/biographyHome.html";
+					  document.getElementById("bio").src = "indexImages/travelPhoto.png";
+				   }
+				
+				if (count<=5)
+					{
+						count++;
+					}
+				if (count>5)
+					{
+						count = 0;
+					}
+		
+			}
+			
+			</script>
+			
+			
+		</section>
+	
+	
+	<aside>
+		
+		
+		</aside>
+	
+	
+	</main>
+	
+	<footer class="center">
+	Created By: Alex Beckerman
+	</footer>
+	
+</body>
+</html>

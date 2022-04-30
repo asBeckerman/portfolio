@@ -1,0 +1,830 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+
+
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+	grid-column-gap: 80px;
+	grid-row-gap: 40px;
+	grid-template-rows: 400px;
+  padding: 30px;
+	
+	
+}
+
+.grid-item {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  
+  font-size: 25px;
+  text-align: center;
+	align-content: center;
+		
+}
+
+
+
+a:link
+	{
+		text-decoration: none;
+		color: black;
+		
+	}
+
+	
+	
+	a:visited
+	{
+		color: black;
+	}
+	a:hover
+	{
+		color: green;
+		opacity: 0.75;
+	}
+	
+	
+	.links
+	{
+		
+		float: left;
+		 
+	}
+	
+	body
+	{
+		
+	
+		font-family:Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+/*
+		width: 100%;
+		height: 100%;
+*/
+		
+		width: 1200px;
+/*		height: 100%;*/
+		margin-left: auto;
+			margin-right:auto;
+			background-color:powderblue;
+				
+		
+		background-image: radial-gradient(circle,blue,powderblue);
+	}
+	
+	
+	
+	p
+	{
+		font-size: 40px;
+		margin-bottom: 40px;
+		margin-top: 10px;
+		margin-left: 20px;
+	}
+	
+	.center
+	{
+		
+		text-align: center;
+		align-content: center;
+		
+	}
+	header
+	{
+		font: bold;
+		font-size: 45px;
+		background-color:seagreen;
+		margin-top: -10px;
+		
+		
+			
+	}
+	
+h2
+	{
+		
+		color: black;
+		font-size: 32px;
+		margin-top: 10px;
+		margin-bottom: 5px;
+		
+		font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+		
+	}
+	
+	section
+	{
+		
+		
+	font-size: 30px;	
+		float: left;
+		height: 1000px;
+		width: 100%;
+		background-color: mediumseagreen
+		
+	}
+	
+
+		
+		
+	
+	footer
+	{
+		font-size: 35px;
+		
+		
+	}
+	
+	#bio{
+		width:300px;
+		height:300px;
+	
+		
+	}
+
+	
+	#culture{
+		width:300px;
+		height:300px;
+	
+		  transition: opacity 1s ease-in-out;
+	}
+	
+	
+	#spot{
+		width:300px;
+		height:300px;
+	
+	}
+	
+	
+	#b01
+	{
+		margin-top: 20px;
+		font-size: 50px;
+	}
+
+#filler1{
+		width:300px;
+		height:300px;
+	
+	
+}
+	
+#filler2{
+		width:300px;
+		height:300px;
+		
+	}
+	
+	
+
+
+/*////////////////////*/
+
+@media only screen and (max-width: 1150px)
+{
+	a:link 
+	{
+		text-decoration: none;
+		color: black;
+		
+	}
+
+	
+	a:visited
+	{
+		color: black;
+	}
+	a:hover
+	{
+		color: green;
+		opacity: 0.5
+	}
+	
+	.links
+	{
+		
+		
+			
+	}
+	
+	body
+	{
+		
+	
+		font-family:Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+/*
+		width: 100%;
+		height: 100%;
+*/
+		
+		width: 1150px;
+/*		height: 100%;*/
+		margin-left: auto;
+			margin-right:auto;
+			background-color:powderblue;
+				
+		
+		background-image: radial-gradient(circle,blue,powderblue);
+	}
+	
+	
+	
+	p
+	{
+		font-size: 30px;
+		margin-bottom: 40px;
+		margin-top: 10px;
+		
+	}
+	
+	.center
+	{
+		
+		text-align: center;
+		align-content: center;
+		
+	}
+	header
+	{
+		font: bold;
+		font-size: 40px;
+		background-color:seagreen;
+		
+		
+			
+	}
+	
+h2
+	{
+		
+		color: black;
+		font-size: 30px;
+		margin-top: 10px;
+		margin-bottom: 5px;
+		
+		font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+		margin-left: 180px;
+	}
+	
+	section
+	{
+		
+		
+	font-size: 30px;	
+		
+		height: 1275px;
+		width: 100%;
+		background-color: mediumseagreen
+		
+	}
+
+	
+	footer
+	{
+		font-size: 35px;
+		
+		
+	}
+	
+	#bio{
+		width:300px;
+		height:300px;
+		margin-left: 180px;
+			text-align: center;
+		align-content: center;
+/*		float: left;*/
+	}
+
+	#culture{
+		width:300px;
+		height:300px;
+		margin-left: 180px;
+		  transition: opacity 1s ease-in-out;
+			text-align: center;
+		align-content: center;
+/*		float: left;*/
+	}
+	
+	#spot{
+		width:300px;
+		height:300px;
+		margin-left: 180px;
+			text-align: center;
+		align-content: center;
+		float: none;
+	}
+	
+	#filler1{
+		width:300px;
+		height:300px;
+		margin-left: 175px;
+	
+}
+	
+#filler2{
+		width:300px;
+		height:300px;
+		margin-left: 185px;
+	}
+	
+	
+	
+	#b01
+	{
+		margin-top: 20px;
+		font-size: 40px;
+			text-align: center;
+		align-content: center;
+	}
+	
+	
+}
+
+/*////////////////////*/
+
+@media only screen and (max-width: 1000px)
+{
+	a:link
+	{
+		text-decoration: none;
+		color: black;
+		
+	}
+
+	
+	a:visited
+	{
+		color: black;
+	}
+	a:hover
+	{
+		color: green;
+		opacity: 0.5
+	}
+	
+	.links
+	{
+		
+		
+			
+	
+	}
+	
+	body
+	{
+		
+	
+		font-family:Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+/*
+		width: 100%;
+		height: 100%;
+*/
+		
+		width: 800px;
+/*		height: 100%;*/
+		margin-left: auto;
+			margin-right:auto;
+			background-color:powderblue;
+				
+		
+		background-image: radial-gradient(circle,blue,powderblue);
+	}
+	
+	
+	
+	p
+	{
+		font-size: 30px;
+		margin-bottom: 40px;
+		margin-top: 10px;
+		
+	}
+	
+	.center
+	{
+		
+		text-align: center;
+		align-content: center;
+		
+	}
+	header
+	{
+		font: bold;
+		font-size: 40px;
+		background-color:seagreen;
+		
+		
+			
+	}
+	
+h2
+	{
+		
+		color: black;
+		font-size: 30px;
+		margin-top: 10px;
+		margin-bottom: 5px;
+		
+		font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+		margin-left: 250px;
+	}
+	
+	section
+	{
+		
+		
+	font-size: 30px;	
+		
+		height: 2000px;
+		width: 100%;
+		background-color: mediumseagreen
+		
+	}
+
+	
+	footer
+	{
+		font-size: 35px;
+		
+		
+	}
+	
+	#bio{
+		width:300px;
+		height:300px;
+		margin-left: 250px;
+			text-align: center;
+		align-content: center;
+		
+	}
+
+	
+	#culture{
+		width:300px;
+		height:300px;
+		margin-left: 250px;
+		  transition: opacity 1s ease-in-out;
+			text-align: center;
+		align-content: center;
+	}
+	
+	
+	#spot{
+		width:300px;
+		height:300px;
+		margin-left: 250px;
+			text-align: center;
+		align-content: center;
+	}
+	
+	
+	#b01
+	{
+		margin-top: 20px;
+		font-size: 40px;
+			text-align: center;
+		align-content: center;
+	}
+	
+	#filler1{
+		width:300px;
+		height:300px;
+		margin-left: 250px;
+	
+}
+	
+#filler2{
+		width:300px;
+		height:300px;
+		margin-left: 250px;
+	}
+	
+}
+
+/*mobile*/
+@media only screen and (max-width: 650px)
+{
+	
+
+a:link
+	{
+		text-decoration: none;
+		color: black;
+		
+	}
+
+	
+	
+	a:visited
+	{
+		color: black;
+	}
+	a:hover
+	{
+		color: green;
+		opacity: 0.5
+	}
+	
+	
+	.links
+	{
+		
+		
+			
+	}
+	
+	body
+	{
+		
+	
+		font-family:Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+/*
+		width: 100%;
+		height: 100%;
+*/
+		
+		width: 600px;
+/*		height: 100%;*/
+		margin-left: auto;
+			margin-right:auto;
+			background-color:powderblue;
+				
+		
+		background-image: radial-gradient(circle,blue,powderblue);
+	}
+	
+	
+	
+	p
+	{
+		font-size: 30px;
+		margin-bottom: 40px;
+		margin-top: 10px;
+		
+	}
+	
+	.center
+	{
+		
+		text-align: center;
+		align-content: center;
+		
+	}
+	header
+	{
+		font: bold;
+		font-size: 40px;
+		background-color:seagreen;
+		
+		
+			
+	}
+	
+h2
+	{
+		
+		color: black;
+		font-size: 30px;
+		margin-top: 10px;
+		margin-bottom: 5px;
+		
+		font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+		margin-left: 150px;
+	}
+	
+	section
+	{
+		
+		
+	font-size: 30px;	
+		
+		height: 2000px;
+		width: 100%;
+		background-color: mediumseagreen
+		
+	}
+
+	
+	footer
+	{
+		font-size: 35px;
+		
+		
+	}
+	
+	#bio{
+		width:300px;
+		height:300px;
+		margin-left: 150px;
+			text-align: center;
+		align-content: center;
+		
+	}
+
+	
+	#culture{
+		width:300px;
+		height:300px;
+		margin-left: 150px;
+		  /*transition: opacity 1s ease-in-out;*/
+			text-align: center;
+		align-content: center;
+	}
+	
+	
+	#spot{
+		width:300px;
+		height:300px;
+		margin-left: 150px;
+			text-align: center;
+		align-content: center;
+	}
+	
+	#filler1{
+		width:300px;
+		height:300px;
+		margin-left: 150px;
+	
+}
+	
+#filler2{
+		width:300px;
+		height:300px;
+		margin-left: 150px;
+	}
+	
+	
+	#b01
+	{
+		margin-top: 20px;
+		font-size: 30px;
+			text-align: center;
+		align-content: center;
+	}
+	
+}
+
+
+@media only screen and (max-width: 510px)
+{
+	a:link
+	{
+		text-decoration: none;
+		color: black;
+		
+	}
+
+	
+	
+	a:visited
+	{
+		color: black;
+	}
+	a:hover
+	{
+		color: green;
+		opacity: 0.5
+	}
+	
+	
+	.links
+	{
+		
+		
+			
+	}
+	
+	body
+	{
+		
+	
+		font-family:Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+/*
+		width: 100%;
+		height: 100%;
+*/
+		
+		width: 500px;
+/*		height: 100%;*/
+		margin-left: auto;
+			margin-right:auto;
+			background-color:powderblue;
+				
+		
+		background-image: radial-gradient(circle,blue,powderblue);
+	}
+	
+	
+	
+	p
+	{
+		font-size: 30px;
+		margin-bottom: 40px;
+		margin-top: 10px;
+		
+	}
+	
+	.center
+	{
+		
+		text-align: center;
+		align-content: center;
+		
+	}
+	header
+	{
+		font: bold;
+		font-size: 40px;
+		background-color:seagreen;
+		
+		
+			
+	}
+	
+h2
+	{
+		
+		color: black;
+		font-size: 30px;
+		margin-top: 10px;
+		margin-bottom: 5px;
+		
+		font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+		margin-left: 100px;
+	}
+	
+	section
+	{
+		
+		
+	font-size: 30px;	
+		
+		height: 2000px;
+		width: 100%;
+		background-color: mediumseagreen
+		
+	}
+
+	
+	footer
+	{
+		font-size: 35px;
+		
+		
+	}
+	
+	#bio{
+		width:300px;
+		height:300px;
+		margin-left: 100px;
+			text-align: center;
+		align-content: center;
+		
+	}
+
+	
+	#culture{
+		width:300px;
+		height:300px;
+		margin-left: 100px;
+		  /*transition: opacity 1s ease-in-out;*/
+			text-align: center;
+		align-content: center;
+	}
+	
+	
+	#spot{
+		width:300px;
+		height:300px;
+		margin-left: 100px;
+			text-align: center;
+		align-content: center;
+	}
+	
+	#filler1{
+		width:300px;
+		height:300px;
+		margin-left: 100px;
+	
+}
+	
+#filler2{
+		width:300px;
+		height:300px;
+		margin-left: 100px;
+	}
+	
+	
+	#b01
+	{
+		margin-top: 20px;
+		font-size: 30px;
+			text-align: center;
+		align-content: center;
+	}
+}
