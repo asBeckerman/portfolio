@@ -1,0 +1,225 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Index</title>
+	<link rel="stylesheet" type="text/css" href="index.css">
+
+	
+</head>
+
+<body>
+	<header class="center">
+<b>Beckerman Portfolio</b>
+	</header>
+	
+		<nav>
+		
+	</nav>
+	
+	
+<main>
+	
+	
+		<section>
+			
+			
+		<div class="center" id="b01" ><b><u>Web Development 1 Projects</u></b></div>
+			<br>
+			
+			<div class="grid-container">
+				
+				
+				
+		<a href = "Biography/html/biographyHome.html" id="bioLink" target="_blank">		
+		<div class="links center grid-item">
+		<h2 class="center">Biography Page</h2>
+		<div class="container"> <img src="indexImages/biographyPhoto.png" alt="Biography"  id="bio"><div class="overlay">  <div class="text">Biography of a partner</div> </div></div></div></a>
+		
+	
+			<a href = "Culture/html/home.html" id="cultureLink" target="_blank">
+			<div class="links center grid-item">
+			<h2 class="center">Cultural Website</h2>
+		<div class="container"> <img src="indexImages/culturePhoto.png" alt="Culture"  id="culture"><div class="overlay">  <div class="text">Website about my culture</div> </div></div></div>	</a>
+	
+			<a href = "SpotDifference/HTML/home.html" id="spotLink" target="_blank" ><div class="links center grid-item">
+	<h2 class="center">Spot The Difference</h2>
+	<div class="container"> <img src="indexImages/spotPhoto.png" alt="Spot"  id="spot"><div class="overlay">  <div class="text">Miniture Web Game</div> </div></div></div>	</a>
+			
+				<a href = "Photoshop/melon head.png" id="Link2" target="_blank">
+			<div class="links center grid-item">
+	<h2 class="center">Mr. Melon Head</h2>
+		<div class="container"> <img src="Photoshop/melon head.png" alt="Half face"  id="filler2"><div class="overlay">  <div class="text"> Practice for the animal hybrid</div> </div></div></div></a>
+				
+			<a href = "Photoshop/Beckerman_hybridanimal/scorpionDragonv4.png" id="animalLink" target="_blank">	
+			<div class="links center grid-item">
+	<h2 class="center">Animal Hybrid </h2>
+		<div class="container"> <img src="Photoshop/Beckerman_hybridanimal/scorpionDragonv4.png" alt="Animal Hybrid"  id="animal"><div class="overlay">  <div class="text">A hybrid of two different animals.</div> </div></div></div></a>		
+			
+				<a href = "Music/HTML/music.html" id="musicLink" target="_blank">
+			<div class="links center grid-item">
+	<h2 class="center">Band Website </h2>
+		<div class="container"> <img src="indexImages/musicPhoto.png" alt="Band"  id="music"><div class="overlay">  <div class="text">Info, merchandise, and <br> tours for a band</div> </div></div></div></a>	
+				
+				<a href = "Beckerman_halfface_practice/beckerman_halfface_practice.html" id="Link" target="_blank">
+			<div class="links center grid-item">
+	<h2 class="center">Half Face Practice</h2>
+		<div class="container"> <img src="indexImages/halfPhoto.png" alt="Half face"  id="filler1"><div class="overlay">  <div class="text"> Practice for the music site</div> </div></div></div></a>	
+				
+				<a href = "Sushi/sushi.html" id="sushiLink" target="_blank">
+			<div class="links center grid-item">
+	<h2 class="center">Sushi Website</h2>
+		<div class="container"> <img src="indexImages/sushiPhoto.png" alt="Half face"  id="sushi"><div class="overlay">  <div class="text"> Sushi website<br>as practice for media queries</div> </div></div></div></a>
+				
+				<div>
+				<a href ="960_studentFiles/960GridActivity1.html"  id="gridLink" target="_blank">
+			<div class="links center grid-item">
+	<h2 class="center" id="g960">960 Grid 1  	</h2>
+		<div class="container"> <img src="indexImages/grid1Photo.png" alt="Half face"  id="grid960"> <div class="overlay">  <div class="text">960 Grid </div> </div></div>  </div> </a>
+		<button class="center" id="swap" onClick="next()"><b>Swap</b></button>	
+					</div>
+				
+				
+				
+				
+			</div>
+			
+		<!--	<a href = "Music/HTML/music.html">
+			<div class="links center grid-item">
+	<h2 class="center">Band Website </h2>
+		<div class="container"> <img src="indexImages/filler2.jpg" alt="Filler"  id="filler2"><div class="overlay">  <div class="text">Website with info, merchandise, and tours for a band</div> </div></div></div></a>	-->
+		
+				
+		<script>
+			
+			//window.setInterval(repaint2,5000);
+		//window.setInterval(repaint,7000);
+			var num = false;
+			
+			function next()
+			{
+				
+				
+				if(num)
+				   {
+				document.getElementById("grid960").src ="indexImages/grid1Photo.png";
+					   document.getElementById("gridLink").href="960_studentFiles/960GridActivity1.html";
+					   document.getElementById("g960").innerHTML="960 Grid 1";
+					   num=false;
+			}
+			else if(!num){
+				document.getElementById("grid960").src ="indexImages/grid2Photo.png";
+				   document.getElementById("gridLink").href="960_studentFiles/960GridActivity2.html";
+				  document.getElementById("g960").innerHTML="960 Grid 2";
+				num=true;
+			}
+				
+			}
+			
+			
+			var count = 2;
+			function repaint()
+			{
+				
+				if(count==1)
+				   {
+					 
+					   document.getElementById("cultureLink").href = "Culture/html/home.html";
+					   document.getElementById("culture").src = "indexImages/culturePhoto.png";
+					 
+				   }
+				else if(count==2)
+				   {
+					   
+				   document.getElementById("cultureLink").href = "Culture/html/food.html";
+				document.getElementById("culture").src = "indexImages/foodPhoto.png";
+					    
+				   }
+				else if(count==3)
+				   {
+					
+				   document.getElementById("cultureLink").href = "Culture/html/holidays.html";
+					document.getElementById("culture").src = "indexImages/holidayPhoto.png";
+					   
+				   }
+				else if(count==4)
+				   {
+					
+				      document.getElementById("cultureLink").href = "Culture/html/clubs.html";
+					  document.getElementById("culture").src = "indexImages/clubPhoto.png";
+				
+				   }
+				if (count<=4)
+					{
+						count++;
+					}
+				if (count>4)
+					{
+						count = 0;
+					}
+		
+			}
+			
+		
+			var count = 2;
+			function repaint2()
+			{
+				
+				if(count==1)
+				   {
+					   document.getElementById("bioLink").href = "Biography/html/biographyHome.html";
+					   document.getElementById("bio").src = "indexImages/biographyPhoto.png";
+				
+				   }
+				else if(count==2)
+				   {
+				   document.getElementById("bioLink").href = "Biography/html/biographyHome.html";
+				document.getElementById("bio").src = "indexImages/aboutMePhoto.png";
+				   }
+				else if(count==3)
+				   {
+				   document.getElementById("bioLink").href = "Biography/html/biographyHome.html";
+					document.getElementById("bio").src = "indexImages/basketballPhoto.png";
+				   }
+				else if(count==4)
+				   {
+				      document.getElementById("bioLink").href = "Biography/html/biographyHome.html";
+					  document.getElementById("bio").src = "indexImages/freetimePhoto.png";
+				   }
+				else if(count==5)
+				   {
+				      document.getElementById("bioLink").href = "Biography/html/biographyHome.html";
+					  document.getElementById("bio").src = "indexImages/travelPhoto.png";
+				   }
+				
+				if (count<=5)
+					{
+						count++;
+					}
+				if (count>5)
+					{
+						count = 0;
+					}
+		
+			}
+			
+			</script>
+			
+			
+		</section>
+	
+	
+	<aside>
+		
+		
+		</aside>
+	
+	
+	</main>
+	
+	<footer class="center">
+	Created By: Alex Beckerman
+	</footer>
+	
+</body>
+</html>

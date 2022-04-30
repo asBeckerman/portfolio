@@ -1,0 +1,138 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Food</title>
+	<link rel="stylesheet" type="text/css" href="css/foodstyle.css">
+</head>
+
+<body>
+	
+	<header>
+		Food
+	</header>
+	
+	<nav>
+		<button class="navbar" onClick="window.location.href = 'home.html'">Home</button>
+		<button class="navbar" onClick="window.location.href = 'food.html'">Food</button>
+		<button class="navbar" onClick="window.location.href = 'holidays.html'">Holidays</button>
+		<button class="navbar" onClick="window.location.href = 'clubs.html'">Clubs</button>
+
+	</nav>
+	
+	
+	
+	
+	<main>
+		
+	<section>
+	
+		<div id="gallery" class="center">
+				
+			
+			<button class="center arrow" id="left" onClick="previous()">&#x21E6; </button> <!--left arrow-->
+		<img src="images/foodImages/bratwurst.jpg" alt="food" id="food" class="center">
+			<button class="center arrow" id="right" onClick="next()">&#x21E8;</button> <!--right arrow-->
+		
+		
+		
+			<h4 id="description">Bratwurst is a type of sausage, often topped with mustard and saurkraut, a salted fermented cabbage. </h4>
+		</div>
+	
+		
+		<script>
+			var num=1;
+			var bratd = "Bratwurst is a German style of sausage, often topped with mustard and saurkraut, a salted fermented cabbage.";
+		var bubbled = "Bubble Tea is a Taiwanese drink, which varies from milk teas, to herbal teas, to even smoothies. It is usually topped with a type of boba, which tends to be tapioca, but can also be grass jelly or a popping boba that contains fruit juice.";
+		var soupd = "Soup Dumplings, also known as Xiao Long Bao, is a type of dumpling that contains soup as one of its fillings, also with meat and vegetables. It is often dipped in soy sauce and ginger. It is of Chinese origin, but is a common food in Taiwan.";
+		var spaetzled = "Spaetzle is a type of egg pasta, which is very compact. Spaetzle can be served asvory or sweet. Spaetzle is common in Germany and the Scandanavia region.";
+			
+			function next()
+			{
+				if(num==1)
+					{
+						document.getElementById("food").src = "images/foodImages/bubbletea.jpg";
+						document.getElementById("description").innerHTML = bubbled;
+						num=2;
+					}
+				else if(num==2)
+					{
+						document.getElementById("food").src = "images/foodImages/soupdumpling.jpg";
+						document.getElementById("description").innerHTML = soupd;
+						num=3;
+					}
+				else if(num==3)
+					{
+						document.getElementById("food").src = "images/foodImages/spaetzle.jpg";
+						document.getElementById("description").innerHTML = spaetzled;
+						num=4;
+					}
+				else if(num==4)
+					{
+						document.getElementById("food").src = "images/foodImages/bratwurst.jpg";
+						document.getElementById("description").innerHTML = bratd;
+						num=1;
+					}
+				
+				
+			}
+			
+			function previous()
+			{
+				if(num==1)
+					{
+						document.getElementById("food").src = "images/foodImages/spaetzle.jpg";
+					document.getElementById("description").innerHTML = spaetzled;
+						
+						num=4;
+					}
+				else if(num==2)
+					{
+							document.getElementById("food").src = "images/foodImages/bratwurst.jpg";
+						document.getElementById("description").innerHTML = bratd;
+						num=1;
+					}
+				else if(num==3)
+					{
+						document.getElementById("food").src = "images/foodImages/bubbletea.jpg";
+						document.getElementById("description").innerHTML = bubbled;
+					
+						num=2;
+					}
+				else if(num==4)
+					{
+						document.getElementById("food").src = "images/foodImages/soupdumpling.jpg";
+						document.getElementById("description").innerHTML = soupd;
+						num=3;
+						
+					}
+			}
+			
+			
+		</script>
+		
+		
+		
+		
+		
+			
+			
+		<!--<img src="images/foodImages/bubbletea.jpg" alt="boba" id="tea">
+		
+			<img src="images/foodImages/soupdumpling.jpg" alt="dumpling" id="dumpling">
+			
+			
+		<img src="images/foodImages/spaetzle.jpg" alt="spaetzle" id="spaetzle">-->
+		
+		
+	</section>
+		
+	</main>
+	
+	<footer class="center">
+	Created by Alex Beckerman (2/19) Information sourced from Britanica. 
+	</footer>
+
+	
+</body>
+</html>

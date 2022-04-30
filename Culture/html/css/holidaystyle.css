@@ -1,0 +1,216 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/*taiwan*/
+
+
+p
+{
+	
+}
+
+.navbar:hover
+{
+	box-shadow: 0 0 30px 10px rgba(0,0,0,0.24);
+	background-color:forestgreen;
+	color: azure;
+}
+
+.navbar
+{
+	width: 10%;
+	height: 80%;
+	float:left;
+	font-size: 20px;
+	margin-top: 5px;
+	position: sticky;
+	margin-left: 130px;
+	
+	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+	
+	
+}
+
+figure
+{
+	float: left;
+}
+
+figcaption
+{
+	font-size: 25px;
+}
+
+
+div
+{
+	font-size: 40px;
+	border: solid rgba(69,63,63,1.00) 1px;
+	
+}
+
+#christmas
+{
+	width:400px;
+	height:200px;
+	
+	
+	object-fit:cover;
+	
+	
+}
+#krampus
+{
+	width:400px;
+	height:200px;
+	object-fit:cover;
+	
+}
+
+
+#festival
+{
+	width:400px;
+	height:200px;
+	
+	
+	object-fit:cover;
+}
+
+
+#newyear
+{
+	width: 400px;
+	height:200px;
+
+	
+
+	
+	object-fit:cover;
+	
+}
+
+.center
+{
+text-align: center;	
+	align-content: center;
+}
+
+header
+{
+text-align: center;
+	font-size: 40px;
+	background-color:whitesmoke;
+}
+
+nav
+{
+	width: 100%;
+	height: 50px;
+
+	position:sticky;
+	
+}
+
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+	grid-column-gap: 80px;
+	grid-template-rows: 30px;
+  padding: 10px;
+	
+	
+}
+
+.grid-item {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  
+  font-size: 25px;
+  text-align: center;
+		
+}
+
+
+
+
+
+section
+{
+	
+	width: 100%;
+	
+	height: 500px;
+	margin-top: -20px;
+	background-color: mediumseagreen;
+}
+
+aside
+{
+	width: 100%;
+	background-color:crimson;
+	color: aliceblue;
+	height: 500px;
+	margin-top: -20px;
+}
+
+footer
+{
+	margin-top: 0px;
+	
+	font-size: 30px;
+}
+
+body
+{
+	margin-top: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+	background-color: crimson;
+	
+	
+}
+
+
+
+
+/*
+@media screen and (max-width: 1022px) {
+
+	
+	#flagG
+	{
+		margin-left: 10px;
+		width: 200px;
+		height: 200px;
+	}
+	
+	#flagT
+	{
+		margin-left: 100px;
+		width: 200px;
+		height: 200px;
+	}
+	
+	.grid-container {
+  display: grid;
+  grid-template-columns: 70px 70px 70px 70px;
+	grid-column-gap: 30px;
+	grid-template-rows: 30px;
+  padding: 10px;
+	
+	
+}
+
+.grid-item {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  
+  font-size: 25px;
+  text-align: center;
+		
+}
+	
+}
+*/

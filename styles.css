@@ -1,0 +1,44 @@
+
+*
+{
+font-family: 'Trebuchet MS';
+}
+
+
+#nav
+{
+    background-color: #FDFFE3;
+    box-shadow: 0px 2px lightgray;
+    height: 100px;
+    width:100%;
+}
+.navLink
+{
+    text-decoration: none;
+    color: black;
+}
+.navLink:hover
+{
+color:crimson;
+}
+
+.box
+{
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+   height: 450px;
+}
+
+.center
+{
+    text-align:center;
+}
+
+th {
+    padding: 5px 5px 5px 5px;
+}
+
+td {
+    padding: 5px 5px 5px 5px;
+}

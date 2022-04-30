@@ -1,0 +1,600 @@
+@charset "UTF-8";
+/* CSS Document */
+
+#nav.grid-container
+{
+	 display: grid;
+  grid-template-columns: 200px 200px 200px 100px; 
+	grid-template-rows: 40px;
+	grid-column-gap: 10px;
+	grid-row-gap: 0px;
+  padding: 10px;
+	justify-content: center
+	
+}
+
+#nav.grid-item {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  
+  font-size: 25px;
+  text-align: center;
+	align-content: center;
+	
+}
+
+.navbut
+{
+	width: 200px;
+	height: 40px;
+	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+	font-size: 20px;
+}
+
+.navbut:hover
+{
+	background-color:darkgrey;
+}
+
+#cart
+{
+	
+	width: 100px;
+	height: 100px;
+}
+
+button
+{
+	width: 200px;
+	height: 40px;
+	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+	font-size: 20px;
+}
+
+.buy
+{
+	background-color:gold;
+	font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace";
+}
+
+.buy:hover
+{
+background-color:orange;
+opacity: 0.9;
+	
+	
+}
+
+#face
+{
+	
+}
+
+h2
+{
+	
+}
+
+h3
+{
+	background-color:whitesmoke;
+	border: solid 2px;
+}
+
+.center
+{
+	align-content: center;
+	text-align: center;
+}
+
+.grid-container {
+	
+  display: grid;
+  grid-template-columns: 220px 220px 220px 220px;
+	grid-template-rows: 350px 350px;
+	
+	grid-column-gap: 30px;
+	grid-row-gap: 80px;
+
+  padding: 10px;
+	justify-content: center;
+	
+
+	/*margin-left: 200px;*/
+	
+}
+
+.grid-item {
+  background-color:rgba(235,235,235,1.00);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  
+  font-size: 25px;
+  text-align: center;
+	align-content: center;
+	
+	
+		
+}
+
+
+
+aside
+{
+	
+}
+
+#col0{
+border: none;
+background-color:transparent;
+margin-top: -30px;
+
+	
+}
+
+#col1{
+	background-color:peachpuff;
+	
+}
+
+#col2{
+	background-color:steelblue;
+}
+#col3{
+	background-color:tomato;
+}
+
+header
+{
+	font-size: 70px;
+	color: azure;
+}
+
+body
+{
+	background-color:darkred;
+
+	
+}
+
+@media only screen and (max-width: 900px)
+{
+	#nav.grid-container
+{
+	 display: grid;
+  grid-template-columns: 200px 200px 200px 100px; 
+	grid-template-rows: 40px;
+	grid-column-gap: 10px;
+	grid-row-gap: 0px;
+  padding: 10px;
+	justify-content: center
+	
+}
+
+#nav.grid-item {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  
+  font-size: 25px;
+  text-align: center;
+	align-content: center;
+	
+}
+
+.navbut
+{
+	width: 200px;
+	height: 40px;
+	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+	font-size: 20px;
+}
+
+#cart
+{
+	
+	width: 100px;
+	height: 100px;
+}
+
+button
+{
+	width: 200px;
+	height: 40px;
+	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+	font-size: 20px;
+}
+
+.buy
+{
+	background-color:gold;
+	font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace";
+}
+
+#face
+{
+	
+}
+
+h2
+{
+	
+}
+
+h3
+{
+	background-color:whitesmoke;
+	border: solid 2px;
+}
+
+.center
+{
+	align-content: center;
+	text-align: center;
+}
+
+.grid-container {
+	
+  display: grid;
+  grid-template-columns: 200px 200px 200px;
+	grid-template-rows: 350px 350px;
+	
+	grid-column-gap: 30px;
+	grid-row-gap: 80px;
+
+  padding: 10px;
+	justify-content: center;
+	
+
+	/*margin-left: 200px;*/
+	
+}
+
+.grid-item {
+  background-color:rgba(235,235,235,1.00);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  
+  font-size: 25px;
+  text-align: center;
+	align-content: center;
+	
+	
+		
+}
+
+
+
+aside
+{
+	
+}
+
+#col0{
+border: none;
+background-color:transparent;
+margin-top: -30px;
+
+	
+}
+
+#col1{
+	background-color:peachpuff;
+	
+}
+
+#col2{
+	background-color:steelblue;
+}
+#col3{
+	background-color:tomato;
+}
+
+header
+{
+	font-size: 70px;
+	color: azure;
+}
+
+body
+{
+	background-color:darkred;
+
+	
+}
+	
+	
+}
+
+@media only screen and (max-width: 670px)
+{
+	#nav.grid-container
+{
+	 display: grid;
+  grid-template-columns: 200px 200px 200px 100px; 
+	grid-template-rows: 40px;
+	grid-column-gap: 10px;
+	grid-row-gap: 0px;
+  padding: 10px;
+	justify-content: center
+	
+}
+
+#nav.grid-item {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  
+  font-size: 25px;
+  text-align: center;
+	align-content: center;
+	
+}
+
+.navbut
+{
+	width: 200px;
+	height: 40px;
+	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+	font-size: 20px;
+}
+
+#cart
+{
+	
+	width: 100px;
+	height: 100px;
+}
+
+button
+{
+	width: 200px;
+	height: 40px;
+	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+	font-size: 20px;
+}
+
+.buy
+{
+	background-color:gold;
+	font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace";
+}
+
+#face
+{
+	
+}
+
+h2
+{
+	
+}
+
+h3
+{
+	background-color:whitesmoke;
+	border: solid 2px;
+}
+
+.center
+{
+	align-content: center;
+	text-align: center;
+}
+
+.grid-container {
+	
+  display: grid;
+  grid-template-columns: 200px 200px;
+	grid-template-rows: 350px 350px;
+	
+	grid-column-gap: 30px;
+	grid-row-gap: 80px;
+
+  padding: 10px;
+	justify-content: center;
+	
+
+	/*margin-left: 200px;*/
+	
+}
+
+.grid-item {
+  background-color:rgba(235,235,235,1.00);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  
+  font-size: 25px;
+  text-align: center;
+	align-content: center;
+	
+	
+		
+}
+
+
+
+aside
+{
+	
+}
+
+#col0{
+border: none;
+background-color:transparent;
+margin-top: -30px;
+
+	
+}
+
+#col1{
+	background-color:peachpuff;
+	
+}
+
+#col2{
+	background-color:steelblue;
+}
+#col3{
+	background-color:tomato;
+}
+
+header
+{
+	font-size: 70px;
+	color: azure;
+}
+
+body
+{
+	background-color:darkred;
+
+	
+}
+	
+	
+}
+
+@media only screen and (max-width: 400px)
+{
+	#nav.grid-container
+{
+	 display: grid;
+  grid-template-columns: 100px 100px 100px 90px; 
+	grid-template-rows: 40px;
+	grid-column-gap: 5px;
+	grid-row-gap: 0px;
+  padding: 10px;
+	justify-content: center
+	
+}
+
+#nav.grid-item {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  
+  font-size: 22px;
+  text-align: center;
+	align-content: center;
+	
+}
+
+.navbut
+{
+	width: 100px;
+	height: 40px;
+	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+	font-size: 15px;
+}
+
+#cart
+{
+	
+	width: 100px;
+	height: 100px;
+}
+
+button
+{
+	width: 200px;
+	height: 40px;
+	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+	font-size: 20px;
+}
+
+.buy
+{
+	background-color:gold;
+	font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace";
+}
+
+#face
+{
+	
+}
+
+h2
+{
+	
+}
+
+h3
+{
+	background-color:whitesmoke;
+	border: solid 2px;
+}
+
+.center
+{
+	align-content: center;
+	text-align: center;
+}
+
+.grid-container {
+	
+  display: grid;
+  grid-template-columns: 200px;
+	grid-template-rows: 350px 350px;
+	
+	grid-column-gap: 30px;
+	grid-row-gap: 80px;
+
+  padding: 10px;
+	justify-content: center;
+	
+
+	/*margin-left: 200px;*/
+	
+}
+
+.grid-item {
+  background-color:rgba(235,235,235,1.00);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  
+  font-size: 25px;
+  text-align: center;
+	align-content: center;
+	
+	
+		
+}
+
+
+
+aside
+{
+	
+}
+
+#col0{
+border: none;
+background-color:transparent;
+margin-top: -30px;
+
+	
+}
+
+#col1{
+	background-color:peachpuff;
+	
+}
+
+#col2{
+	background-color:steelblue;
+}
+#col3{
+	background-color:tomato;
+}
+
+header
+{
+	font-size: 70px;
+	color: azure;
+}
+
+body
+{
+	background-color:darkred;
+
+	
+}
+	
+	
+}
+
+

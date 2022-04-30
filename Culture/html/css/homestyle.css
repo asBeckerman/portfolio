@@ -1,0 +1,232 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/*taiwan*/
+
+
+.navbar:hover
+{
+	box-shadow: 0 0 30px 10px rgba(0,0,0,0.24);
+	background-color:chocolate;
+	color: azure;
+}
+
+.navbar
+{
+	width: 10%;
+	height: 80%;
+	float:left;
+	font-size: 20px;
+	margin-top: 5px;
+	position: sticky;
+	margin-left: 130px;
+	
+	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+	
+	
+}
+
+div
+{
+	font-size: 40px;
+	border: solid rgba(69,63,63,1.00) 1px;
+}
+
+#flagT
+{
+	width:400px;
+	height:200px;
+	float:left;
+	margin-left: 120px;
+	margin-top: 100px;
+}
+
+/*germany*/
+#flagG
+{
+	width: 400px;
+	height:200px;
+float: none;
+	margin-top: 100px;
+	margin-right: 10px;
+	margin-left: 100px;
+	
+	object-fit:cover;
+	
+}
+
+#taiwan
+{
+	background-color:whitesmoke;
+	
+}
+
+#germany
+{
+	background-color: black;
+	color: azure;
+}
+
+#factsT{
+	background-color:steelblue;
+}
+
+#historyT
+{
+	background-color:firebrick;
+	color: lightgray;
+}
+
+#factsG
+{
+	background-color:brown;
+	color: lightgray;
+}
+
+#historyG
+{
+	background-color: gold;
+	color: black;
+	
+}
+
+.center
+{
+text-align: center;	
+}
+
+header
+{
+		text-align: center;
+	font-size: 40px;
+	background-color:whitesmoke;
+}
+
+nav
+{
+	width: 100%;
+	height: 50px;
+background-color:wheat;
+	position:sticky;
+	
+}
+
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+	grid-column-gap: 80px;
+	grid-template-rows: 30px;
+  padding: 10px;
+	
+	
+}
+
+.grid-item {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  
+  font-size: 25px;
+  text-align: center;
+		
+}
+
+
+
+h2
+{
+	
+	
+}
+
+h3
+{
+	
+	margin-left: 80px;
+	font-size: 40px;
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+
+section
+{
+	width: 100%;
+	
+	height: 400px;
+	background-color:coral;
+}
+
+aside
+{
+	width: 100%;
+	height: 500px;
+}
+
+footer
+{
+	margin-top: 900px;
+	
+	font-size: 20px;
+}
+
+body
+{
+	margin-top: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+	background-color:aliceblue;
+
+}
+
+ul
+{
+	margin-top: -10px;
+	font-family:Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+}
+li
+{
+	margin-top: 10px;
+	font-size: 30px;
+}
+
+
+/*@media screen and (max-width: 1022px) {
+
+	
+	#flagG
+	{
+		margin-left: 10px;
+		width: 200px;
+		height: 200px;
+	}
+	
+	#flagT
+	{
+		margin-left: 100px;
+		width: 200px;
+		height: 200px;
+	}
+	
+	.grid-container {
+  display: grid;
+  grid-template-columns: 70px 70px 70px 70px;
+	grid-column-gap: 30px;
+	grid-template-rows: 30px;
+  padding: 10px;
+	
+	
+}
+
+.grid-item {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  
+  font-size: 25px;
+  text-align: center;
+		
+}
+	
+}*/
+
+
+

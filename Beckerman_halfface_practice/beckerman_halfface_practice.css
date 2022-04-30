@@ -1,0 +1,59 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body
+{
+	background-image: url(bg_face.jpg);
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	background-position: left bottom;
+	margin: 0px;
+	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+}
+
+#header
+{
+	font-size: 36px;
+	color: #999999;
+	font-family: Arial, Helvetica, sans-serif;
+	margin-left: 200px;
+	padding-top: 30px;
+	border-bottom: #999 thin solid;
+}
+
+#col1
+{
+color:#666;	
+	
+}
+#col2
+{
+color:#D21619;
+	
+
+
+}
+#col3
+{
+color:#6A04B2;
+
+	
+}
+
+#colorBar
+{
+	background-color: #D5C1FF;
+	height:1000px;
+	width: 250px;
+	float: right;
+}
+
+.col
+{
+	width: 200px;
+	height: 500px;
+	margin: 18px;
+	float: right;
+	font-size: 12px;
+	color: #999
+}

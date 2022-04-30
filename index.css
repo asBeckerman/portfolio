@@ -1,0 +1,1131 @@
+@charset "UTF-8";
+/* CSS Document */
+
+#swap
+{
+	margin-left: -160px;
+	margin-top: 360px;
+	
+	
+}
+
+.container {
+  position: relative;
+  width: 100%;
+}
+
+
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color:teal;
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  transition: 1s ease;
+}
+
+.container:hover .overlay {
+  height: 100%;
+}
+
+.text {
+  white-space: nowrap; 
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  overflow: hidden;
+  top: 50%;
+  left: 50%;
+	-ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  
+}
+
+
+
+
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+	grid-column-gap: 80px;
+	grid-row-gap: 40px;
+	grid-template-rows: 350px 350px 350px;
+  padding: 30px;
+	
+	
+}
+
+.grid-item {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  
+  font-size: 25px;
+  text-align: center;
+	align-content: center;
+		
+}
+
+
+
+a:link
+	{
+		text-decoration: none;
+		color: black;
+		
+	}
+
+	
+	
+	a:visited
+	{
+		color: black;
+	}
+	a:hover
+	{
+		color: green;
+		opacity: 0.9;
+	}
+	
+	
+	.links
+	{
+		
+		float: left;
+		 
+	}
+	
+	body
+	{
+		
+	
+		font-family:Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+/*
+		width: 100%;
+		height: 100%;
+*/
+		
+		width: 1200px;
+/*		height: 100%;*/
+		margin-left: auto;
+			margin-right:auto;
+			background-color:powderblue;
+				
+		
+		background-image: radial-gradient(circle,blue,powderblue);
+	}
+	
+	
+	
+	p
+	{
+		font-size: 40px;
+		margin-bottom: 40px;
+		margin-top: 10px;
+		margin-left: 20px;
+	}
+	
+	.center
+	{
+		
+		text-align: center;
+		align-content: center;
+		
+	}
+	header
+	{
+		font: bold;
+		font-size: 45px;
+		background-color:azure;
+		margin-top: -10px;
+		
+		
+			
+	}
+	
+h2
+	{
+		
+		color: black;
+		font-size: 32px;
+		margin-top: 10px;
+		margin-bottom: 5px;
+		
+		font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+		
+	}
+	
+	section
+	{
+		
+		
+	font-size: 30px;	
+		float: left;
+		height: 1400px;
+		width: 100%;
+		background-color:azure ;
+		
+	}
+	
+
+		
+		
+	
+	footer
+	{
+		font-size: 35px;
+		
+		
+	}
+	
+	#bio{
+		width:300px;
+		height:300px;
+	display: block;
+		
+	}
+
+	
+	#culture{
+		width:300px;
+		height:300px;
+	
+		  transition: opacity 1s ease-in-out;
+	}
+	
+	
+	#spot{
+		width:300px;
+		height:300px;
+	
+	}
+	
+	
+	#b01
+	{
+		margin-top: 20px;
+		font-size: 50px;
+	}
+
+#music{
+		width:300px;
+		height:300px;
+			text-align: center;
+		align-content: center;
+	
+	
+}
+	
+#animal{
+		width:300px;
+		height:300px;
+	text-align: center;
+		align-content: center;
+		
+	}
+
+#animal{
+		width:300px;
+		height:300px;
+	text-align: center;
+		align-content: center;
+		
+	}
+
+#sushi{
+		width:300px;
+		height:300px;
+	text-align: center;
+		align-content: center;
+		
+	}
+
+#grid960{
+		width:300px;
+		height:300px;
+	text-align: center;
+		align-content: center;
+		
+	}
+	
+	#filler1{
+		width:300px;
+		height:300px;
+		text-align: center;
+		align-content: center;
+	
+	
+}
+	
+#filler2{
+		width:300px;
+		height:300px;
+	text-align: center;
+		align-content: center;
+		
+	}
+	
+	
+
+
+/*////////////////////*/
+
+@media only screen and (max-width: 1150px)
+{
+	
+	.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+	grid-column-gap: 30px;
+	grid-row-gap: 50px;
+	grid-template-rows: 400px 400px 400px;
+  padding: 40px;
+	
+	
+}
+
+.grid-item {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  
+  font-size: 25px;
+  text-align: center;
+	align-content: center;
+		
+}
+	
+	a:link 
+	{
+		text-decoration: none;
+		color: black;
+		
+	}
+
+	
+	a:visited
+	{
+		color: black;
+	}
+	a:hover
+	{
+		color: green;
+		opacity: 0.9;
+	}
+	
+	.links
+	{
+		
+		
+			
+	}
+	
+	body
+	{
+		
+	
+		font-family:Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+/*
+		width: 100%;
+		height: 100%;
+*/
+		
+		width: 1150px;
+
+		margin-left: auto;
+			margin-right:auto;
+			background-color:powderblue;
+				
+		
+		background-image: radial-gradient(circle,blue,powderblue);
+	}
+	
+	
+	
+	p
+	{
+		font-size: 30px;
+		margin-bottom: 40px;
+		margin-top: 10px;
+		
+	}
+	
+	.center
+	{
+		
+		text-align: center;
+		align-content: center;
+		
+	}
+	header
+	{
+		font: bold;
+		font-size: 40px;
+		background-color:azure;
+		
+		
+			
+	}
+	
+h2
+	{
+		
+		color: black;
+		font-size: 30px;
+		margin-top: 10px;
+		margin-bottom: 5px;
+		
+		font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+		
+	}
+	
+	section
+	{
+		
+		
+	font-size: 30px;	
+		
+		height: 1500px;
+		width: 100%;
+		background-color: azure;
+		
+	}
+
+	
+	footer
+	{
+		font-size: 35px;
+		
+		
+	}
+	
+	#bio{
+		width:300px;
+		height:300px;
+		
+			text-align: center;
+		align-content: center;
+/*		float: left;*/
+	}
+
+	#culture{
+		width:300px;
+		height:300px;
+		
+		  transition: opacity 1s ease-in-out;
+			text-align: center;
+		align-content: center;
+/*		float: left;*/
+	}
+	
+	#spot{
+		width:300px;
+		height:300px;
+	
+			text-align: center;
+		align-content: center;
+		float: none;
+	}
+	
+		#music{
+		width:300px;
+		height:300px;
+			text-align: center;
+		align-content: center;
+	
+	
+}
+	
+#animal{
+		width:300px;
+		height:300px;
+	text-align: center;
+		align-content: center;
+		
+	}/*Odd Bug*/
+	
+	#sushi{
+		width:300px;
+		height:300px;
+	text-align: center;
+		align-content: center;
+		
+	}
+
+#grid960{
+		width:300px;
+		height:300px;
+	text-align: center;
+		align-content: center;
+		
+	}
+	
+	#filler1{
+		width:300px;
+		height:300px;
+		text-align: center;
+		align-content: center;
+	
+	
+}
+	
+#filler2{
+		width:300px;
+		height:300px;
+	text-align: center;
+		align-content: center;
+		
+	}
+	
+	
+	
+	#b01
+	{
+		margin-top: 20px;
+		font-size: 40px;
+			text-align: center;
+		align-content: center;
+	}
+	
+	
+}
+
+/*////////////////////*/
+
+@media only screen and (max-width: 1000px)
+{
+	.grid-container {
+  display: grid;
+  grid-template-columns: auto auto;
+	grid-column-gap: 80px;
+	grid-row-gap: 40px;
+	grid-template-rows: 400px;
+  padding: 30px;
+	
+	
+}
+
+.grid-item {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  
+  font-size: 25px;
+  text-align: center;
+	align-content: center;
+		
+}
+	
+	a:link
+	{
+		text-decoration: none;
+		color: black;
+		
+	}
+
+	
+	a:visited
+	{
+		color: black;
+	}
+	a:hover
+	{
+		color: green;
+		opacity: 0.9;
+	}
+	
+	.links
+	{
+		
+		
+			
+	
+	}
+	
+	body
+	{
+		
+	
+		font-family:Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+/*
+		width: 100%;
+		height: 100%;
+*/
+		
+		width: 800px;
+/*		height: 100%;*/
+		margin-left: auto;
+			margin-right:auto;
+			background-color:powderblue;
+				
+		
+		background-image: radial-gradient(circle,blue,powderblue);
+	}
+	
+	
+	
+	p
+	{
+		font-size: 30px;
+		margin-bottom: 40px;
+		margin-top: 10px;
+		
+	}
+	
+	.center
+	{
+		
+		text-align: center;
+		align-content: center;
+		
+	}
+	header
+	{
+		font: bold;
+		font-size: 40px;
+		background-color:azure;
+		
+		
+			
+	}
+	
+h2
+	{
+		
+		color: black;
+		font-size: 30px;
+		margin-top: 10px;
+		margin-bottom: 5px;
+		
+		font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	
+	}
+	
+	section
+	{
+		
+		
+	font-size: 30px;	
+		
+		height: 2200px;
+		width: 100%;
+		background-color: azure;
+		
+	}
+
+	
+	footer
+	{
+		font-size: 35px;
+		
+		
+	}
+	
+	#bio{
+		width:300px;
+		height:300px;
+		
+		
+	}
+
+	
+	#culture{
+		width:300px;
+		height:300px;
+		
+			
+	}
+	
+	
+	#spot{
+		width:300px;
+		height:300px;
+		
+			
+	}
+	
+	
+	#b01
+	{
+		margin-top: 20px;
+		font-size: 40px;
+			
+	}
+	
+	#music{
+		width:300px;
+		height:300px;
+			text-align: center;
+		align-content: center;
+	
+	
+}
+	
+#animal{
+		width:300px;
+		height:300px;
+	text-align: center;
+		align-content: center;
+		
+	}
+	
+	#sushi{
+		width:300px;
+		height:300px;
+	text-align: center;
+		align-content: center;
+		
+	}
+
+#grid960{
+		width:300px;
+		height:300px;
+	text-align: center;
+		align-content: center;
+		
+	}
+	
+	#filler1{
+		width:300px;
+		height:300px;
+		text-align: center;
+		align-content: center;
+	
+	
+}
+	
+#filler2{
+		width:300px;
+		height:300px;
+	text-align: center;
+		align-content: center;
+		
+	}
+	
+}
+
+/*mobile*/
+@media only screen and (max-width: 650px)
+{
+	
+.grid-container {
+  display: grid;
+  grid-template-columns: auto;
+	grid-column-gap: 80px;
+	grid-row-gap: 40px;
+	grid-template-rows: 400px;
+  padding: 30px;
+margin-left: 100px;	
+	
+}
+
+.grid-item {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  
+  font-size: 25px;
+  text-align: center;
+	align-content: center;
+		
+}
+	
+a:link
+	{
+		text-decoration: none;
+		color: black;
+		
+	}
+
+	
+	
+	a:visited
+	{
+		color: black;
+	}
+	a:hover
+	{
+		color: green;
+		opacity: 0.9;
+	}
+	
+	
+	.links
+	{
+		
+		
+			
+	}
+	
+	body
+	{
+		
+	
+		font-family:Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+/*
+		width: 100%;
+		height: 100%;
+*/
+		
+		width: 600px;
+/*		height: 100%;*/
+		margin-left: auto;
+			margin-right:auto;
+			background-color:powderblue;
+				
+		
+		background-image: radial-gradient(circle,blue,powderblue);
+	}
+	
+	
+	
+	p
+	{
+		font-size: 30px;
+		margin-bottom: 40px;
+		margin-top: 10px;
+		
+	}
+	
+	.center
+	{
+		
+		text-align: center;
+		align-content: center;
+		
+	}
+	header
+	{
+		font: bold;
+		font-size: 40px;
+		background-color:azure;
+		
+		
+			
+	}
+	
+h2
+	{
+		
+		color: black;
+		font-size: 30px;
+		margin-top: 10px;
+		margin-bottom: 5px;
+		
+		font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+		
+	}
+	
+	section
+	{
+		
+		
+	font-size: 30px;	
+		
+		height: 3800px;
+		width: 100%;
+		background-color: azure;
+		
+	}
+
+	
+	footer
+	{
+		font-size: 35px;
+		
+		
+	}
+	
+	#bio{
+		width:300px;
+		height:300px;
+		
+	}
+
+	
+	#culture{
+		width:300px;
+		height:300px;
+	
+	}
+	
+	
+	#spot{
+		width:300px;
+		height:300px;
+		
+	}
+	
+	#music{
+		width:300px;
+		height:300px;
+			text-align: center;
+		align-content: center;
+	
+	
+}
+	
+#animal{
+		width:300px;
+		height:300px;
+	text-align: center;
+		align-content: center;
+		
+	}
+	
+	#sushi{
+		width:300px;
+		height:300px;
+	text-align: center;
+		align-content: center;
+		
+	}
+
+#grid960{
+		width:300px;
+		height:300px;
+	text-align: center;
+		align-content: center;
+		
+	}
+	
+	#filler1{
+		width:300px;
+		height:300px;
+		text-align: center;
+		align-content: center;
+	
+	
+}
+	
+#filler2{
+		width:300px;
+		height:300px;
+	text-align: center;
+		align-content: center;
+		
+	}
+	
+	
+	#b01
+	{
+		margin-top: 20px;
+		font-size: 30px;
+			text-align: center;
+		align-content: center;
+	}
+	
+}
+
+
+@media only screen and (max-width: 510px)
+{
+	.grid-container {
+  display: grid;
+  grid-template-columns: auto;
+	grid-column-gap: 80px;
+	grid-row-gap: 40px;
+	grid-template-rows: 400px;
+  padding: 30px;
+	
+	
+}
+
+.grid-item {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  
+  font-size: 25px;
+  text-align: center;
+	align-content: center;
+		
+}
+	
+	a:link
+	{
+		text-decoration: none;
+		color: black;
+		
+	}
+
+	
+	
+	a:visited
+	{
+		color: black;
+	}
+	a:hover
+	{
+		color: green;
+	opacity: 0.9;
+	}
+	
+	
+	.links
+	{
+		
+		
+			
+	}
+	
+	body
+	{
+		
+	
+		font-family:Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+/*
+		width: 100%;
+		height: 100%;
+*/
+		
+		width: 500px;
+/*		height: 100%;*/
+		margin-left: auto;
+			margin-right:auto;
+			background-color:powderblue;
+				
+		
+		background-image: radial-gradient(circle,blue,powderblue);
+	}
+	
+	
+	
+	p
+	{
+		font-size: 30px;
+		margin-bottom: 40px;
+		margin-top: 10px;
+		
+	}
+	
+	.center
+	{
+		
+		text-align: center;
+		align-content: center;
+		
+	}
+	header
+	{
+		font: bold;
+		font-size: 40px;
+		background-color:azure;
+		
+		
+			
+	}
+	
+h2
+	{
+		
+		color: black;
+		font-size: 30px;
+		margin-top: 10px;
+		margin-bottom: 5px;
+		
+		font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+		
+	}
+	
+	section
+	{
+		
+		
+	font-size: 30px;	
+		
+		height: 3800px;
+		width: 100%;
+		background-color: azure;
+		
+	}
+
+	
+	footer
+	{
+		font-size: 35px;
+		
+		
+	}
+	
+	#bio{
+		width:300px;
+		height:300px;
+	
+		
+	}
+
+	
+	#culture{
+		width:300px;
+		height:300px;
+		
+	}
+	
+	
+	#spot{
+		width:300px;
+		height:300px;
+	
+		
+	}
+	
+	#music{
+		width:300px;
+		height:300px;
+			text-align: center;
+		align-content: center;
+	
+	
+}
+	
+#animal{
+		width:300px;
+		height:300px;
+	text-align: center;
+		align-content: center;
+		
+	}
+	
+	#sushi{
+		width:300px;
+		height:300px;
+	text-align: center;
+		align-content: center;
+		
+	}
+
+#grid960{
+		width:300px;
+		height:300px;
+	text-align: center;
+		align-content: center;
+		
+	}
+	
+	#filler1{
+		width:300px;
+		height:300px;
+		text-align: center;
+		align-content: center;
+	
+	
+}
+	
+#filler2{
+		width:300px;
+		height:300px;
+	text-align: center;
+		align-content: center;
+		
+	}
+	
+	
+	#b01
+	{
+		margin-top: 20px;
+		font-size: 30px;
+			text-align: center;
+		align-content: center;
+	}
+}
