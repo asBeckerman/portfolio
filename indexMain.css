@@ -1,9 +1,12 @@
 
 .grid
 {
+background-color:whitesmoke;
 display: grid;
-grid-template-columns: auto auto auto;
-grid-template-rows: auto auto;
+grid-template-columns: auto auto auto ;
+grid-template-rows: auto ;
+position:sticky;
+top:1px;
 }
 
 .title
@@ -11,18 +14,33 @@ grid-template-rows: auto auto;
     font-size: 40px;
     font-weight:bold;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: none;
 }
+
+
 
 .main
 {
     font-size: 42px;
     font-weight:bold;
     font-family:'Times New Roman', Times, serif;
+    text-decoration: none;
+}
+
+.main:visited
+{
+    color:black
+}
+
+.main:hover
+{
+    color:tomato;
 }
 
 .description
 {
-    font-size: 22px;
+    font-size: 30px;
+    text-decoration: underline;
 }
 
 .center
