@@ -1,4 +1,10 @@
 
+body
+{
+background-color:343131;
+color:white;
+}
+
 .grid
 {
 display: grid;
